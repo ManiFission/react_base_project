@@ -1,6 +1,47 @@
 # react_base_project
 Base application with required configurations for better development
 
+## Core Structure
+      ├── .storybook
+      ├── public
+      │   ├── favicon.ico
+      │   ├── vite.svg
+      ├── src
+      │   ├── assets
+      │   │   ├── **/*.svg
+      │   ├── Components
+      │   │   ├── LandingPage
+      │   │   ├── User
+      │   │   ├── NotFound
+      │   ├── Stories
+      │   │   ├── Header.tsx
+      │   │   ├── Header.stories.tsx
+      │   ├── utils
+      │   │   ├── helper.ts
+      │   │   ├── models.ts
+      │   ├── Hooks
+      │   │   ├── customHook.ts
+      │   ├── Contexts
+      │   │   ├── authContext.tsx
+      │   ├── App.tsx
+      │   ├── App.css
+      │   ├── main.tsx
+      │   ├── main.css
+      │   ├── utils.css
+      ├── node_modules
+      ├── package.json
+      ├── package-lock.json 
+      ├── .eslintignore
+      ├── .eslintrc.json
+      ├── .huskyrc.json
+      ├── .npmrc
+      ├── .prettierrc.json
+      ├── README.md
+      ├── tsconfig.json
+      ├── tsconfig.node.json
+      ├── vite.config.ts
+      └── .gitignore
+
 ## Prerequisites
 
 ### Install Node JS >= 14 (comes with npm 6+)
