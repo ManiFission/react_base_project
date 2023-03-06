@@ -13,6 +13,7 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "react-router-dom": "^6.3.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^4.2.1",
     "react": "^18.2.0",
